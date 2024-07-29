@@ -1,0 +1,36 @@
+.red, .green{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#big{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blue ul{
+    list-style-type: none;
+    position: absolute;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+}
+
+#uni, .yell{
+    position: fixed;
+    width: 70%;
+   
+}
+
+.red ul, .green ul{
+    list-style-type: none;
+}
+
+.stress, .stone, .try{
+    display: none;
+    /* align-content: center; */
+}

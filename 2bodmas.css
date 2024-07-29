@@ -1,0 +1,51 @@
+   .red{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+    .jones span {
+    display: flex;
+}
+
+    .kay span {
+    display: flex;
+} 
+
+.big, .bigs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+} 
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+}
+
+li{
+    list-style-position: inside;
+    border: 2px;
+    border-color: black;
+    
+}
+
+button{
+    width: 100px;
+}
+
+#uni{
+    position: fixed;
+    width: 80%;
+}
+
+.stress, .stone{
+    display: none;
+    justify-content: center;
+}

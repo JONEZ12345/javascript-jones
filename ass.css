@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    cursor: pointer;
+}
+
+.box-1 {
+    padding: 0;
+    width: 75%;
+}
+
+.span-1 {
+    font-weight: bolder;
+}
+ 
+.inpuT {
+    background-color: aliceblue;
+    border-radius: 3px;
+    font-weight: lighter;
+    border: 0;
+    
+}

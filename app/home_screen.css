@@ -1,0 +1,55 @@
+
+.loadText{
+    background-color: slategray;
+    /* position: absolute;
+    padding: 10px 213px;
+    height: 885px; */
+    /* background: yellow; */
+    /* color: aliceblue; */
+    animation: load 2300ms ;
+    z-index: 99;
+}
+
+@keyframes load {
+    0%{
+        -webkit-transform: translateY(800px);
+        height: 740px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+/*     
+    20%{
+        -webkit-transform: translateY(600px);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+     */
+    60%{
+        -webkit-transform: translateY(300px) ;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    80%{
+        -webkit-transform: translateY(100px) ;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    100%{
+        -webkit-transform: translateY(30px) ;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    
+
+}
+

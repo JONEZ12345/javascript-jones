@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #011627;  */
+    color: #fdfffc; 
+    text-align: center;
+    background-image: linear-gradient(rgba(41, 14, 83, 0.514) ,rgba(13, 13, 75, 0.24)) ,url(jonez.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1 {
+    font-size: 45px;
+}
+input {
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px inset rgb(10, 10, 10);
+    color: black;
+    border-style: none;
+}
+.btn:hover {
+    background-color: #270b5517;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
